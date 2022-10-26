@@ -17,6 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     
+    - run: echo "Hello world"
     - run: docker-compose -f docker-compose-build.yaml build --parallel
     - run: docker tag udagram-frontend:local kirubelfikru/udagram-frontend:v1
     - run: docker tag udagram-api-feed kirubelfikru/udagram-api-feed:v1
