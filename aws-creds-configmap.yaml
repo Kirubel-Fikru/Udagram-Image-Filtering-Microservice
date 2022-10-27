@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: udagram-aws
+data:
+  credentials: |
+    [default]
+    aws_access_key_id = ASIAWCUEBBKVA6LPZXXU
+    aws_secret_access_key = 809L45O47Ry0vhvxCxKmRqy89AQ/17NcCAtABLTw
+    aws_session_token = FwoGZXIvYXdzEDgaDG7Mi/wsROinYofeLiLVAYehxVb1Cg8wNs44G3FmVXDmwTXS7PAkOPYfg2wCU0P54dTLI1QKqPVd3trWdZ5ups2vOflRzGcz2v604xOVwUsFjHJp5lOlzew3NSWi6lMis+eQvL3/kdZa+xmpZIJiwT23wfiX7R8PXnVT9WLqbQr7GBYq+hUZQeSUAsRh4CtxFuaMDwmTZOwLac4d6qEPoz6C8dmelrnxOPn8/UJuOzaDXs3/GCrglGvguF1WCawHi3TVphJ8ef3gzrBGjPloXk8NhzJDdAJl7JYY/ur7VjnIrMvbPyjY2OiaBjItxsv71OJsfFBSDH//WwklcxAMsVJNjWykQOkxP9NyL4HgNgUgzahZ7ISxZ/Ss
+
+ 
