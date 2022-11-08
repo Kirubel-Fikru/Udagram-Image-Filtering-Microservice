@@ -4,10 +4,10 @@ metadata:
   name: udagram-env
 data:
   # property-like keys; each key maps to a simple value
-  POSTGRES_HOST: udagram-instance.ckqxeenjxrne.us-east-1.rds.amazonaws.com
+  POSTGRES_HOST: udagramdb.cqg79n8rvfjo.us-east-2.rds.amazonaws.com
   POSTGRES_DB: postgres
-  AWS_BUCKET: udagram-kirubel
-  AWS_REGION: us-east-1
+  AWS_BUCKET: udagram-monolithic
+  AWS_REGION: us-east-2
   AWS_PROFILE: default
   JWT_SECRET: testing
   URL: http://localhost:8100
