@@ -12,6 +12,7 @@ kubectl apply -f aws-creds-configmap.yaml
 kubectl apply -f env-configmap.yaml
 kubectl apply -f env-secret.yaml
 
+
 kubectl apply -f feed-service.yaml
 kubectl apply -f user-service.yaml
 kubectl apply -f reverseproxy-service.yaml
