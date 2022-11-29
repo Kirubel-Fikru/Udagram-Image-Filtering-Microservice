@@ -1,10 +1,10 @@
 apiVersion: v1
-kind: ConfigMap
+kind: Secret
 metadata:
   name: udagram-aws
-data:
+stringData:
   credentials: |
     [default]
     aws_access_key_id = ASIAYJPZGRPID7PFMN6K
-    aws_secret_access_key = zEvHJ8yjuSqg99iGAdLVps5HWMBkHmHUGnn504gI
-    aws_session_token = FwoGZXIvYXdzEIr//////////wEaDChnOIwhrhx1c5HdViLVAVelZQw71USZXsgGQGBSv3J4rPqpQBCNPG4xfs/AyRcCNaj+rTiPeY7E8bKuNZqblLvsnhUoFWwq39BuAMjDM2ZBj/Wh+i4FReRgLbcNFLJFGu/EZ2Totes0wZDJEuGJibU1Tw75PIv1vly6voQNc/BTzwLktqQXQpbpso12H6uoJ1SsC/YkE3NlnV47l2O47qegK5pPohECiR1UIo2lzjFgWP0f22M6zjYCvYZXfdQSY/zyfK7VF+76F7oUx6IdQlUjDJ6liqNDjWZfoIqUu50iITzVOiic67KbBjItxPTY/o4/4SFThPMn4EhpkDT/gmDXSK5C+t3z6DwRZd76mUejIyJ07VzGTVyL
+    aws_secret_access_key = UYFrXvQlVclHUrGzUQ4leaR5qbeKH3m/mBBq70DW
+    aws_session_token = FwoGZXIvYXdzEJH//////////wEaDOkyh06kARvypK4yEyLVActLSWN/QIS3n/cqoTw/t7T3OPBu33H/6Ny72zxjQD0ZE0BuJLFbW455d0kEx5RZQ/ay/pVLN6HIiXP7q+6/Q7Gv3r9Pa/Ygsn3nPA+hGL2+lyvXhKmsozq8rQNXYEEM3esPm0Lq5QuZ0t4wm60s7ovleh8b/MlE4NfOiZ8dFsjQMn9sTqq/ujG2/PFcdJZ8LlWcJh2rc4qbxsfXFAL4vZs/ufAFAaKhWsClaybaMH7rRnkuXKLK2CD2uO5FQZxVZ0m3v+CFANtDq0XnNNthDInszjU8xCjhq7SbBjItDU10fT0rWNYpECPGFI4ZAiLF1YEue1RoEPNPiVKOGDkhZBCtIRpociPV2n4k

@@ -1,69 +1,69 @@
-# apiVersion: apps/v1
-
-# kind: Deployment
-
-# metadata:
-
-#   name: frontend
-
-#   labels:
-
-#     app: frontend
-
-# spec:
-
-#   replicas: 1
-
-#   selector:
-
-#     matchLabels:
-
-#       app: frontend
-
-#   template:
-
-#     metadata:
-
-#       labels:
-
-#         app: frontend
-
-#     spec:
-
-#       containers:
-
-#       - name: frontend
-
-#         image: kirubelfikru/udagram-frontend:v1
-
-#         ports:
-
-#         - containerPort: 80
-
 apiVersion: apps/v1
+
 kind: Deployment
+
 metadata:
+
   name: frontend
+
+  labels:
+
+    app: frontend
+
 spec:
-  selector:
-    matchLabels:
-      app: frontend
+
   replicas: 1
+
+  selector:
+
+    matchLabels:
+
+      app: frontend
+
   template:
+
     metadata:
+
       labels:
+
         app: frontend
-        api: external
+
     spec:
+
       containers:
+
       - name: frontend
+
         image: kirubelfikru/udagram-frontend:v1
-        imagePullPolicy: Always
-        ports: 
+
+        ports:
+
         - containerPort: 80
-        resources:
-          limits:
-            cpu: 500m
-          requests:
-            cpu: 200m
-      restartPolicy: Always
+
+# apiVersion: apps/v1
+# kind: Deployment
+# metadata:
+#   name: frontend
+# spec:
+#   selector:
+#     matchLabels:
+#       app: frontend
+#   replicas: 1
+#   template:
+#     metadata:
+#       labels:
+#         app: frontend
+#         api: external
+#     spec:
+#       containers:
+#       - name: frontend
+#         image: kirubelfikru/udagram-frontend:v1
+#         imagePullPolicy: Always
+#         ports: 
+#         - containerPort: 80
+#         resources:
+#           limits:
+#             cpu: 500m
+#           requests:
+#             cpu: 200m
+#       restartPolicy: Always

@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: frontend
   labels:
-    run: udagram-frontend
+    run: frontend
 spec:
   selector:
     app: frontend
